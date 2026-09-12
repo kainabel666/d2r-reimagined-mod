@@ -281,96 +281,19 @@ dmg-mag/lvl	277	1	17	item_magic_damagemax_perlevel																												+#
 pierce-mag	278	1	1	passive_mag_pierce																												-#% to Enemy Fire Resistance		Min %	Max %		0
 pierce-dmg	279	1	1	passive_dmg_pierce																												-#% to Enemy Lightning Resistance		Min %	Max %		0
 affix-rand	280	1	25																													Add random affix from property	Index of property to use	Min Value for affix	Max Value for affix		0
-extra-skill-dmg%-rand	281	1	1	passive_fire_mastery			1	passive_ltng_mastery			1	passive_cold_mastery			1	passive_pois_mastery			1	passive_mag_mastery			7	dmg%								used to with affix-rand to roll a random stat					0
+extra-skill-dmg%-rand	281	1	1	passive_fire_mastery			1	passive_ltng_mastery			1	passive_cold_mastery			1	passive_pois_mastery			1	passive_mag_mastery			7	damagepercent								used to with affix-rand to roll a random stat					0
 war-tab-rand	282	1	10	item_addskill_tab		21	10	item_addskill_tab		22	10	item_addskill_tab		23																							0
 extra-mag	283	1	1	passive_mag_mastery																												+#% to Magic Skill Damage		Min %	Max %		0
 str%	284	1	1	item_strength_percent																																	0
 dex%	285	1	1	item_dexterity_percent																																	0
 vit%	286	1	1	item_vitality_percent																																	0
 enr%	287	1	1	item_energy_percent																																	0
-str%/lvl	288	1	17	item_strengthpercent_perlevel																												Strength per Player Level	(8ths)			none	0
-dex%/lvl	289	1	17	item_dexteritypercent_perlevel																												Dexterity per Player Level	(8ths)			none	0
-enr%/lvl	290	1	17	item_energypercent_perlevel																												Energy per Player Level	(8ths)			none	0
-vit%/lvl	291	1	17	item_vitalitypercent_perlevel																												Vitality per Player Level	(8ths)			none	0
-thorns-blind	292	1	11	item_attackergetsblind																												attacker gets blinded		min	max	armour only	0
-thorns-flee	293	1	11	item_attackerflees																												attacker runs away		min	max	armour only	0
-fire-thorns	294	1	1	item_attackertakesfiredamage																																	0
-cold-thorns	295	1	1	item_attackertakescolddamage																											6						0
-dmg-max/str	296	1	17	item_maxdamage_perstr																											6		(8ths)				0
-dmg-max/dex	297	1	17	item_maxdamage_perdex																											6		(8ths)				0
 dmg-min/lvl	298	1	17	item_mindamage_perlvl																											2		(8ths)				0
-dmg-min/str	299	1	17	item_mindamage_perstr																													(8ths)				0
-dmg-min/dex	300	1	17	item_mindamage_perdex																													(8ths)				0
-dmg-max%/str	301	1	17	item_maxdamage_percent_perstr																													(8ths)				0
-dmg-max%/dex	302	1	17	item_maxdamage_percent_perdex																													(8ths)				0
-wounds/dex	303	1	17	item_openwounds_perdex			1	item_extrablood																									(8ths)				0
-deadly/dex	304	1	17	item_deadlystrike_perdex																											3		(8ths)				0
-wounds/str	305	1	17	item_openwounds_perstr			1	item_extrablood																									(8ths)				0
-deadly/str	306	1	17	item_deadlystrike_perstr																													(8ths)				0
-ac/str	307	1	17	item_armor_perstr																												armour per strength	(8ths)			armour only	0
-ac/dex	308	1	17	item_armor_perdex																												armour class per dex	(8ths)	min	max	armour only	0
-att/str	309	1	17	item_tohit_perstr																												to hit per dex	(8ths)	min	max	weap only	0
-att/dex	310	1	17	item_tohit_perDex																												to hit per dex	(8ths)	min	max	weap only	0
-hp/vit	311	1	17	item_hp_pervitality																													(8ths)				0
-mana/enr	312	1	17	item_mana_perenr																													(8ths)				0
-cast/enr	313	1	17	item_fastercastrate_perenr																													(8ths)				0
-block/dex	314	1	17	item_fasterblockrate_perdex																													(8ths)				0
-move/vit	315	1	17	item_fastermovevelocity_pervitality																													(8ths)				0
-swing/str	316	1	17	item_fasterswingvelocity_perstrength																													(8ths)				0
-dmg-min%/str	317	1	17	item_mindamage_percent_perstr																													(8ths)				0
-dmg-min%/dex	318	1	17	item_mindamage_percent_perdex																													(8ths)				0
-dmg-min%/lvl	319	1	17	item_mindamage_percent_perlvl																													(8ths)				0
-crush/str	320	1	17	item_crushingblow_perstr																												+% Chance of Crushing Blow per Player Level	(8ths)			none	0
-crush/dex	321	1	17	item_crushingblow_perdex																												+% Chance of Crushing Blow per Player Level	(8ths)			none	0
 coldskill	322	1	21	item_elemskill		4	3	item_elemskillcold																												none	0
 lightningskill	323	1	21	item_elemskill		2	3	item_elemskilllight																												none	0
 poisonskill	324	1	21	item_elemskill		5	3	item_elemskillpoison																												none	0
 magicskill	325	1	21	item_elemskill		3	3	item_elemskillmagic																												none	0
-ac%/str	326	1	17	item_armorpercent_perstr																												AC% per Player Level	ac%/lvl (8ths)			none	0
-ac%/dex	327	1	17	item_armorpercent_perdex																												AC% per Player Level	ac%/lvl (8ths)			none	0
-att%/str	328	1	17	item_tohitpercent_perstr																												Attack% per Player Level	att%/lvl (8ths)			none	0
-att%/dex	329	1	17	item_tohitpercent_perdex																												Attack% per Player Level	att%/lvl (8ths)			none	0
-swing/dex	330	1	17	item_fasterswingvelocity_perdex																													(8ths)				0
-swing/lvl	331	1	17	item_fasterswingvelocity_perlvl																													(8ths)				0
-block/str	332	1	17	item_fasterblockrate_perstr																													(8ths)				0
-block/lvl	333	1	17	item_fasterblockrate_perlvl																													(8ths)				0
-move/dex	334	1	17	item_fastermovevelocity_perdex																													(8ths)				0
-move/lvl	335	1	17	item_fastermovevelocity_perlvl																													(8ths)				0
-cast/lvl	336	1	17	item_fastercastrate_perlvl																													(8ths)				0
-balance/vit	337	1	17	item_fasterhitrecovery_pervit																													(8ths)				0
-balance/lvl	338	1	17	item_fasterhitrecovery_perlvl																													(8ths)				0
-block%/dex	339	1	17	item_increasedblock_perdex																													(8ths)				0
-block%/lvl	340	1	17	item_increasedblock_perlvl																													(8ths)				0
-addxp/lvl	341	1	17	item_addexperience_perlvl																												additional xp gain					0
-addxp/enr	342	1	17	item_addexperience_perenr																												additional xp gain					0
-cheap/lvl	343	1	17	item_reducedprices_perlvl																												reduces vendor prices		min	max	none	0
-pierce/lvl	344	1	17	item_pierce_perlvl																																none	0
-pierce/str	345	1	17	item_pierce_perstr																																none	0
-all-zero-display	346	1	1	resmax_display_all_zero																																	0
-res-all-hidden	347	1	1	magicresist_hidden			3	fireresist_hidden			3	lightresist_hidden			3	coldresist_hidden			3	poisonresist_hidden			3	hiddenresist_dummy													0
-res-all-max-hidden	348	1	1	maxmagicresist_hidden			3	maxfireresist_hidden			3	maxlightresist_hidden			3	maxcoldresist_hidden			3	maxpoisonresist_hidden			3	hiddenresist_dummy													0
-res-all-max%	349	1	1	maxmagres_percent			3	maxfireres_percent			3	maxlightres_percent			3	maxcoldres_percent			3	maxpoisres_percent																	0
 res-all/lvl	350	1	17	item_resist_cold_perlevel			3	item_resist_ltng_perlevel			3	item_resist_fire_perlevel			3	item_resist_pois_perlevel																				none	0
-slow/lvl	351	1	17	item_slow_perlvl																																none	0
-kick/str	352	1	17	item_kick_damage_perstr																												Kick Damage per Player Level	(8ths)			none	0
-kick/dex	353	1	17	item_kick_damage_perdex																												Kick Damage per Player Level	(8ths)			none	0
-red-dmg%/lvl	354	1	17	damageresist_perlvl																																none	0
-red-dmg%/vit	355	1	17	damageresist_pervit																																none	0
-red-mag/lvl	356	1	17	magic_damage_reduction_perlvl																																none	0
-red-mag/enr	357	1	17	magic_damage_reduction_perenr																																none	0
-res-mag%/lvl	358	1	17	magicresist_perlvl																																none	0
-res-mag%/enr	359	1	17	magicresist_perenr																																none	0
-stupidity/lvl	360	1	17	item_stupidity_perlvl																																none	0
-freeze/lvl	361	1	17	item_freeze_perlvl																													chance in 128	length in frames		none	0
-freeze/enr	362	1	17	item_freeze_perenr																													chance in 128	length in frames		none	0
-res-pois-len/lvl	363	1	17	item_poisonlengthresist_perlvl																																none	0
-res-pois-len/vit	364	1	17	item_poisonlengthresist_pervit																																none	0
-res-curse/lvl	365	1	17	curse_resistance_perlvl																																	0
-res-curse/enr	366	1	17	curse_resistance_perenr																																	0
-res-curse-len	367	1	1	curse_resistance_length			1	curse_resistance																													0
-mana-kill/lvl	368	1	17	item_manaafterkill_perlvl																																none	0
-mana-kill/enr	369	1	17	item_manaafterkill_perenr																																none	0
-balance/dex	370	1	17	item_fasterhitrecovery_perdex																													(8ths)				0
 splash	371	1	11	item_splashonhit																												splash	proc_SplashDamage	100	1		0
 dmg2%	372	1	15	pl_mindamage_percent			16	pl_maxdamage_percent																								Adds #-# Damage		Min #	Max #		0
 regen2	373	1	17	hpregen_perlevel																												Replenish Life Plus #% (Based on Character Level)	# per Level				0
